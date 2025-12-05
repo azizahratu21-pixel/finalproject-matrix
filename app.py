@@ -72,8 +72,6 @@ st.header("Matrix transformations (brief)")
 st.markdown(
     """
 - Use 3×3 matrices on homogeneous coordinates `[x, y, 1]` to combine translation with linear transforms.
-- Order matters — matrix multiplication is not commutative.
-- For image warping we use inverse mapping: for each destination pixel, compute source coordinates via inverse transform and sample the image (bilinear interpolation).
 """
 )
 
@@ -89,3 +87,4 @@ st.markdown(
 
 st.write("---")
 st.info("Now go to the **Image Processing** page to try transforms and filters.")
+
