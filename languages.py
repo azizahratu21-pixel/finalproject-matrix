@@ -10,12 +10,12 @@ LANG = {
         # ----------------------
         # APP (HOME)
         # ----------------------
-        "app_title": "Transformasi Matriks dalam Transformasi Gambar",
+        "app_title": "Transformasi Matriks dalam Pengolahan Gambar",
         "app_desc": (
             "Aplikasi multi-halaman ini mendemonstrasikan **transformasi geometris** "
             "menggunakan matriks homogen 3×3 (translasi, skala, rotasi, geser, refleksi) "
             "serta **filter berbasis konvolusi** (blur dan sharpen) yang diimplementasikan "
-            "secara manual tanpa fungsi bawaan."
+            "secara manual tanpa menggunakan fungsi bawaan pengolahan gambar."
         ),
 
         "how_to_use": "Cara penggunaan",
@@ -29,8 +29,8 @@ LANG = {
         "learning_goals": "Tujuan pembelajaran",
         "learning_goals_desc": (
             "- Memahami representasi transformasi afin 2D menggunakan matriks homogen.\n"
-            "- Memahami hubungan antara aljabar linear dan pengolahan citra.\n"
-            "- Mengimplementasikan konvolusi secara manual."
+            "- Memahami hubungan antara aljabar linear dan pengolahan gambar.\n"
+            "- Mengimplementasikan operasi konvolusi secara manual."
         ),
 
         "matrix_brief": "Transformasi matriks (ringkas)",
@@ -41,7 +41,7 @@ LANG = {
 
         "conv_brief": "Konvolusi (ringkas)",
         "conv_brief_desc": (
-            "Konvolusi dilakukan dengan menggeser kernel di atas citra dan "
+            "Konvolusi dilakukan dengan menggeser kernel di atas gambar dan "
             "menghitung jumlah hasil perkalian elemen."
         ),
 
@@ -50,7 +50,7 @@ LANG = {
         # ----------------------
         # IMAGE PROCESSING PAGE
         # ----------------------
-        "ip_title": "Alat Pengolahan Citra",
+        "ip_title": "Alat Pengolahan Gambar",
 
         "upload_image": "Unggah gambar (PNG/JPG)",
         "upload_hint": "Unggah gambar untuk memulai. Disarankan ukuran kecil (mis. 400×400) agar proses lebih cepat.",
@@ -68,7 +68,7 @@ LANG = {
 
         "scaling": "Skala",
         "enable_scaling": "Aktifkan skala",
-        "scale_center": "Skala terhadap pusat citra",
+        "scale_center": "Skala terhadap pusat gambar",
 
         "rotation": "Rotasi",
         "enable_rotation": "Aktifkan rotasi",
@@ -87,8 +87,8 @@ LANG = {
 
         "apply": "Terapkan operasi",
 
-        "original": "Citra asli (RGBA)",
-        "result": "Citra hasil transformasi / filter",
+        "original": "Gambar asli (RGBA)",
+        "result": "Gambar hasil transformasi / filter",
 
         "matrix_used": "**Matriks transformasi (3×3) yang diterapkan:**"
     },
@@ -106,13 +106,13 @@ LANG = {
             "This multi-page application demonstrates **geometric transformations** "
             "using 3×3 homogeneous matrices (translation, scaling, rotation, shearing, reflection) "
             "and **convolution-based filters** (blur and sharpen) implemented manually "
-            "without built-in image processing functions."
+            "without relying on built-in image processing functions."
         ),
 
         "how_to_use": "How to use",
         "how_to_use_desc": (
             "- Go to the **Image Processing** page to upload an image.\n"
-            "- Select transformations and filters.\n"
+            "- Select the desired transformations and filters.\n"
             "- Transformations are applied using matrices and inverse mapping.\n"
             "- Blur and sharpen are implemented using convolution kernels."
         ),
