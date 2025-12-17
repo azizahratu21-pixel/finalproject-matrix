@@ -10,7 +10,7 @@ LANG = {
         # ----------------------
         # APP (HOME)
         # ----------------------
-        "app_title": "Transformasi Matriks dalam Pengolahan Citra",
+        "app_title": "Transformasi Matriks dalam Transformasi Gambar",
         "app_desc": (
             "Aplikasi multi-halaman ini mendemonstrasikan **transformasi geometris** "
             "menggunakan matriks homogen 3×3 (translasi, skala, rotasi, geser, refleksi) "
