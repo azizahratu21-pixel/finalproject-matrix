@@ -7,59 +7,46 @@ LANG = {
     # ======================================================
     "id": {
 
-        # ----------------------
-        # APP (HOME)
-        # ----------------------
+        # ================= APP (HOME) =================
         "app_title": "Transformasi Matriks dalam Pengolahan Gambar",
+
         "app_intro": (
-    "Aplikasi multi-halaman ini mendemonstrasikan **transformasi geometris** "
-    "menggunakan matriks homogen 3×3 (translasi, skala, rotasi, geser, refleksi) "
-    "serta **filter berbasis konvolusi** (blur dan sharpen) dalam pengolahan gambar."
-),
-
-
-        "how_to_use": "Cara penggunaan",
-        "how_to_use_desc": (
-            "- Buka halaman **Image Processing** untuk mengunggah gambar.\n"
-            "- Pilih transformasi dan filter yang diinginkan.\n"
-            "- Transformasi diterapkan menggunakan matriks dan inverse mapping.\n"
-            "- Filter blur dan sharpen diimplementasikan menggunakan kernel konvolusi."
+            "Aplikasi multi-halaman ini mendemonstrasikan **transformasi geometris** "
+            "menggunakan matriks homogen 3×3 (translasi, skala, rotasi, geser, dan refleksi) "
+            "serta **filter berbasis konvolusi** seperti blur dan sharpen. "
+            "Seluruh proses diimplementasikan secara manual untuk memperkuat pemahaman "
+            "konsep **Aljabar Linear dalam Pengolahan Gambar**."
         ),
 
-        "learning_goals": "Tujuan pembelajaran",
-        "learning_goals_desc": (
-            "- Memahami representasi transformasi afin 2D menggunakan matriks homogen.\n"
-            "- Memahami hubungan antara aljabar linear dan pengolahan gambar.\n"
-            "- Mengimplementasikan operasi konvolusi secara manual."
-        ),
-
-        "matrix_brief": "Transformasi matriks (ringkas)",
+        "matrix_brief_title": "Transformasi Matriks (Ringkas)",
         "matrix_brief_desc": (
-            "Transformasi geometris direpresentasikan menggunakan matriks 3×3 "
-            "pada koordinat homogen [x, y, 1]."
+            "Transformasi geometris dua dimensi direpresentasikan menggunakan "
+            "matriks 3×3 pada koordinat homogen [x, y, 1]. "
+            "Pendekatan ini memungkinkan translasi dikombinasikan dengan "
+            "transformasi linier lainnya dalam satu matriks."
         ),
 
-        "conv_brief": "Konvolusi (ringkas)",
+        "conv_brief_title": "Konvolusi (Ringkas)",
         "conv_brief_desc": (
-            "Konvolusi dilakukan dengan menggeser kernel di atas gambar dan "
-            "menghitung jumlah hasil perkalian elemen."
+            "Konvolusi adalah operasi dasar dalam pengolahan gambar yang dilakukan "
+            "dengan menggeser kernel di atas gambar dan menjumlahkan hasil "
+            "perkalian elemen-elemen yang bersesuaian."
         ),
 
-        "go_to_ip": "Silakan buka halaman **Image Processing** untuk mencoba transformasi dan filter.",
+        "cta_image_page": (
+            "Silakan buka halaman **Image Processing** untuk mencoba langsung "
+            "transformasi matriks dan filter konvolusi pada gambar."
+        ),
 
-        # ----------------------
-        # IMAGE PROCESSING PAGE
-        # ----------------------
-        "ip_title": "Alat Pengolahan Gambar",
+        # ================= IMAGE PROCESSING PAGE =================
+        "ip_title": "Pengolahan Gambar Berbasis Transformasi Matriks",
 
-        "upload_image": "Unggah gambar (PNG/JPG)",
-        "upload_hint": "Unggah gambar untuk memulai. Disarankan ukuran kecil (mis. 400×400) agar proses lebih cepat.",
+        "upload_image": "Unggah gambar",
+        "upload_hint": "Silakan unggah gambar terlebih dahulu.",
 
-        "preview": "Pratinjau",
-
-        "transform_order": "**Urutan transformasi**: pilih urutan penerapan transformasi.",
-        "order_mode": "Mode urutan:",
-        "preset_order": "Preset: Translasi → Skala → Rotasi → Geser → Refleksi",
+        "transform_order": "**Urutan transformasi matriks**",
+        "order_mode": "Mode urutan",
+        "preset_order": "Urutan default",
         "custom_order": "Urutan kustom",
         "select_order": "Pilih urutan transformasi",
 
@@ -72,25 +59,26 @@ LANG = {
 
         "rotation": "Rotasi",
         "enable_rotation": "Aktifkan rotasi",
-        "angle": "Sudut (derajat)",
+        "angle": "Sudut rotasi (derajat)",
 
         "shearing": "Geser (Shearing)",
-        "enable_shearing": "Aktifkan geser",
+        "enable_shearing": "Aktifkan shearing",
 
         "reflection": "Refleksi",
         "enable_reflection": "Aktifkan refleksi",
-        "axis": "Sumbu / garis refleksi",
+        "axis": "Sumbu refleksi",
 
-        "filters": "Filter (Konvolusi)",
-        "blur": "Blur (rata-rata 3×3)",
+        "filters": "Filter Konvolusi",
+        "blur": "Blur",
         "sharpen": "Sharpen",
 
-        "apply": "Terapkan operasi",
+        "apply": "Terapkan",
+        "preview": "Pratinjau",
 
-        "original": "Gambar asli (RGBA)",
-        "result": "Gambar hasil transformasi / filter",
+        "original": "Gambar Asli",
+        "result": "Hasil Transformasi",
 
-        "matrix_used": "**Matriks transformasi (3×3) yang diterapkan:**"
+        "matrix_used": "**Matriks transformasi total yang digunakan:**",
     },
 
     # ======================================================
@@ -98,59 +86,46 @@ LANG = {
     # ======================================================
     "en": {
 
-        # ----------------------
-        # APP (HOME)
-        # ----------------------
+        # ================= APP (HOME) =================
         "app_title": "Matrix Transformations in Image Processing",
-       "app_intro": (
-    "This multi-page application demonstrates **geometric transformations** "
-    "using 3×3 homogeneous matrices (translation, scaling, rotation, shearing, reflection) "
-    "and **convolution-based filters** (blur and sharpen) in image processing."
-),
 
-
-        "how_to_use": "How to use",
-        "how_to_use_desc": (
-            "- Go to the **Image Processing** page to upload an image.\n"
-            "- Select the desired transformations and filters.\n"
-            "- Transformations are applied using matrices and inverse mapping.\n"
-            "- Blur and sharpen are implemented using convolution kernels."
+        "app_intro": (
+            "This multi-page application demonstrates **geometric transformations** "
+            "using 3×3 homogeneous matrices (translation, scaling, rotation, shearing, and reflection) "
+            "as well as **convolution-based filters** such as blur and sharpen. "
+            "All processes are implemented manually to strengthen understanding of "
+            "**Linear Algebra concepts in Image Processing**."
         ),
 
-        "learning_goals": "Learning objectives",
-        "learning_goals_desc": (
-            "- Understand 2D affine transformations using homogeneous matrices.\n"
-            "- Understand the relationship between linear algebra and image processing.\n"
-            "- Implement convolution operations manually."
-        ),
-
-        "matrix_brief": "Matrix transformations (brief)",
+        "matrix_brief_title": "Matrix Transformations (Brief)",
         "matrix_brief_desc": (
-            "Geometric transformations are represented using 3×3 matrices "
-            "on homogeneous coordinates [x, y, 1]."
+            "Two-dimensional geometric transformations are represented using "
+            "3×3 matrices on homogeneous coordinates [x, y, 1]. "
+            "This allows translation to be combined with other linear "
+            "transformations within a single matrix."
         ),
 
-        "conv_brief": "Convolution (brief)",
+        "conv_brief_title": "Convolution (Brief)",
         "conv_brief_desc": (
-            "Convolution is performed by sliding a kernel over the image "
-            "and summing element-wise products."
+            "Convolution is a fundamental operation in image processing, "
+            "performed by sliding a kernel over an image and summing the "
+            "element-wise products."
         ),
 
-        "go_to_ip": "Go to the **Image Processing** page to try transformations and filters.",
+        "cta_image_page": (
+            "Go to the **Image Processing** page to directly experiment with "
+            "matrix transformations and convolution filters on images."
+        ),
 
-        # ----------------------
-        # IMAGE PROCESSING PAGE
-        # ----------------------
-        "ip_title": "Image Processing Tools",
+        # ================= IMAGE PROCESSING PAGE =================
+        "ip_title": "Image Processing Using Matrix Transformations",
 
-        "upload_image": "Upload image (PNG/JPG)",
-        "upload_hint": "Upload an image to start. Small images (e.g. 400×400) are recommended for faster processing.",
+        "upload_image": "Upload image",
+        "upload_hint": "Please upload an image first.",
 
-        "preview": "Preview",
-
-        "transform_order": "**Transformation order**: choose the order in which transformations are applied.",
-        "order_mode": "Order mode:",
-        "preset_order": "Preset: Translation → Scaling → Rotation → Shearing → Reflection",
+        "transform_order": "**Transformation order**",
+        "order_mode": "Order mode",
+        "preset_order": "Preset order",
         "custom_order": "Custom order",
         "select_order": "Select transformation order",
 
@@ -163,24 +138,26 @@ LANG = {
 
         "rotation": "Rotation",
         "enable_rotation": "Enable rotation",
-        "angle": "Angle (degrees)",
+        "angle": "Rotation angle (degrees)",
 
         "shearing": "Shearing",
         "enable_shearing": "Enable shearing",
 
         "reflection": "Reflection",
         "enable_reflection": "Enable reflection",
-        "axis": "Axis / reflection line",
+        "axis": "Reflection axis",
 
-        "filters": "Filters (Convolution)",
-        "blur": "Blur (3×3 average)",
+        "filters": "Convolution Filters",
+        "blur": "Blur",
         "sharpen": "Sharpen",
 
-        "apply": "Apply operations",
+        "apply": "Apply",
+        "preview": "Preview",
 
-        "original": "Original image (RGBA)",
-        "result": "Transformed / filtered image",
+        "original": "Original Image",
+        "result": "Transformed Image",
 
-        "matrix_used": "**Applied transformation matrix (3×3):**"
+        "matrix_used": "**Total transformation matrix used:**",
     }
 }
+
