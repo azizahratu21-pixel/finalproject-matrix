@@ -11,12 +11,12 @@ LANG = {
         # APP (HOME)
         # ----------------------
         "app_title": "Transformasi Matriks dalam Pengolahan Gambar",
-        "app_desc": (
-            "Aplikasi multi-halaman ini mendemonstrasikan **transformasi geometris** "
-            "menggunakan matriks homogen 3×3 (translasi, skala, rotasi, geser, refleksi) "
-            "serta **filter berbasis konvolusi** (blur dan sharpen) yang diimplementasikan "
-            "secara manual tanpa menggunakan fungsi bawaan pengolahan gambar."
-        ),
+        "app_intro": (
+    "Aplikasi multi-halaman ini mendemonstrasikan **transformasi geometris** "
+    "menggunakan matriks homogen 3×3 (translasi, skala, rotasi, geser, refleksi) "
+    "serta **filter berbasis konvolusi** (blur dan sharpen) dalam pengolahan gambar."
+),
+
 
         "how_to_use": "Cara penggunaan",
         "how_to_use_desc": (
@@ -102,12 +102,12 @@ LANG = {
         # APP (HOME)
         # ----------------------
         "app_title": "Matrix Transformations in Image Processing",
-        "app_desc": (
-            "This multi-page application demonstrates **geometric transformations** "
-            "using 3×3 homogeneous matrices (translation, scaling, rotation, shearing, reflection) "
-            "and **convolution-based filters** (blur and sharpen) implemented manually "
-            "without relying on built-in image processing functions."
-        ),
+       "app_intro": (
+    "This multi-page application demonstrates **geometric transformations** "
+    "using 3×3 homogeneous matrices (translation, scaling, rotation, shearing, reflection) "
+    "and **convolution-based filters** (blur and sharpen) in image processing."
+),
+
 
         "how_to_use": "How to use",
         "how_to_use_desc": (
